@@ -1,0 +1,17 @@
+// 1. ifの処理を@mixinの中で⾏い、対象のクラスの中で展開し、ifの条件で通ったCSSのプロパティーを反映させてください
+$width: 1200px;
+@mixin boxContent($media-width: 768px) {
+    @media screen and (max-width: $media-width){
+        @content
+    }
+}
+
+.main-box {
+    width: $width;
+    background-color: #b4b4b4;
+    color: #000000;
+    @include boxContent{
+        background-color: #ffd5d5;
+        color:#363636;
+    }
+}

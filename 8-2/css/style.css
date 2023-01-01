@@ -1,0 +1,58 @@
+.inner {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.line {
+  display: block;
+  padding: 20px 30px;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #00B900;
+  text-align: center;
+  border: none;
+  width: 100%;
+  margin: 8px 0;
+}
+
+.instagram {
+  display: block;
+  padding: 20px 30px;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #CF2E92;
+  text-align: center;
+  border: none;
+  width: 100%;
+  margin: 8px 0;
+}
+
+.facebook {
+  display: block;
+  padding: 20px 30px;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #71d0f2;
+  text-align: center;
+  border: none;
+  width: 100%;
+  margin: 8px 0;
+}
+
+.twitter {
+  display: block;
+  padding: 20px 30px;
+  color: #fff;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #1DA1F2;
+  text-align: center;
+  border: none;
+  width: 100%;
+  margin: 8px 0;
+}

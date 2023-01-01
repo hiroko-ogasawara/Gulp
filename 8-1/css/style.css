@@ -1,0 +1,11 @@
+.main-box {
+  width: 1200px;
+  background-color: #b4b4b4;
+  color: #000000;
+}
+@media screen and (max-width: 768px) {
+  .main-box {
+    background-color: #ffd5d5;
+    color: #363636;
+  }
+}
